@@ -15,5 +15,5 @@ class Controller {
 			}
 		return $view->loadTemplate();
 	}
-	}
+}
 ?>
