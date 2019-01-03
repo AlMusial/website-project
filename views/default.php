@@ -11,14 +11,14 @@ Licence URI: http://www.os-templates.com/template-terms
 <title>Preevent</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+<div class="bgded overlay" style="background-image:url('/images/demo/backgrounds/01.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
@@ -32,11 +32,11 @@ Licence URI: http://www.os-templates.com/template-terms
           <li class="active"><a href="index.html">Home</a></li>
           <li><a class="drop" href="#">Pages</a>
             <ul>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/full-width.html">Full Width</a></li>
-              <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-              <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+              <li><a href="/pages/gallery.html">Gallery</a></li>
+              <li><a href="/pages/full-width.html">Full Width</a></li>
+              <li><a href="/pages/sidebar-left.html">Sidebar Left</a></li>
+              <li><a href="/pages/sidebar-right.html">Sidebar Right</a></li>
+              <li><a href="/pages/basic-grid.html">Basic Grid</a></li>
             </ul>
           </li>
           <li><a class="drop" href="#">Dropdown</a>
@@ -121,13 +121,13 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay light" style="background-image:url('images/demo/backgrounds/02.png');">
+<div class="wrapper bgded overlay light" style="background-image:url('/images/demo/backgrounds/02.png');">
   <div class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="group element">
       <article class="one_third first"> 
         <!-- ################################################################################################ -->
-        <img src="images/demo/390x260.png" alt="">
+        <img src="/images/demo/390x260.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">Faucibus vestibulum</h6>
           <p>Amet ultricies curabitur eget tempus urna ut porta leo ipsum aliquam maximus sagittis erat malesuada [&hellip;]</p>
@@ -137,7 +137,7 @@ Licence URI: http://www.os-templates.com/template-terms
       </article>
       <article class="one_third"> 
         <!-- ################################################################################################ -->
-        <img src="images/demo/390x260.png" alt="">
+        <img src="/images/demo/390x260.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">Metus blandit fringilla</h6>
           <p>Lorem lacinia nec suspendisse lacinia sapien ac eros ornare consequat duis sit amet tortor sapien nam [&hellip;]</p>
@@ -147,7 +147,7 @@ Licence URI: http://www.os-templates.com/template-terms
       </article>
       <article class="one_third"> 
         <!-- ################################################################################################ -->
-        <img src="images/demo/390x260.png" alt="">
+        <img src="/images/demo/390x260.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">Sodales molestie sit</h6>
           <p>Magna quis tempus tortor mattis ut vestibulum justo lorem viverra eget ipsum volutpat dapibus velit [&hellip;]</p>
@@ -163,7 +163,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/03.png')">
+<div class="wrapper bgded overlay" style="background-image:url('/images/demo/backgrounds/03.png')">
   <div class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <section class="one_half first"> 
@@ -189,7 +189,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <h2 class="heading">Faucibus velit integer sapien</h2>
       <p>Turpis duis pretium nisl tortor a auctor orci tempor id nunc sed arcu lectus fusce at urna lacus curabitur.</p>
       <div class="testimonial">
-        <figure class="clear"><img class="circle" src="images/demo/60x60.png" alt="">
+        <figure class="clear"><img class="circle" src="/images/demo/60x60.png" alt="">
           <figcaption><strong>A.Doe</strong><br>
             <em>Position, Company Name</em></figcaption>
         </figure>
@@ -216,28 +216,28 @@ Licence URI: http://www.os-templates.com/template-terms
       <p>Posuere odio mi eget suscipit odio aliquet quis nulla vehicula consectetur purus</p>
     </div>
     <div class="group element team btmspace-80">
-      <article class="one_quarter first"><img src="images/demo/320x320.png" alt="">
+      <article class="one_quarter first"><img src="/images/demo/320x320.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">A Smith</h6>
           <em>Consectetur gravida</em>
           <footer><a href="#">Full Profile</a></footer>
         </div>
       </article>
-      <article class="one_quarter"><img src="images/demo/320x320.png" alt="">
+      <article class="one_quarter"><img src="/images/demo/320x320.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">B Smith</h6>
           <em>Lorem laoreet vitae</em>
           <footer><a href="#">Full Profile</a></footer>
         </div>
       </article>
-      <article class="one_quarter"><img src="images/demo/320x320.png" alt="">
+      <article class="one_quarter"><img src="/images/demo/320x320.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">C Smith</h6>
           <em>Phasellus ac nisi</em>
           <footer><a href="#">Full Profile</a></footer>
         </div>
       </article>
-      <article class="one_quarter"><img src="images/demo/320x320.png" alt="">
+      <article class="one_quarter"><img src="/images/demo/320x320.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">D Smith</h6>
           <em>Gravida ultrices sapien</em>
@@ -252,7 +252,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/04.png');">
+<div class="wrapper row4 bgded overlay" style="background-image:url('/images/demo/backgrounds/04.png');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
@@ -338,9 +338,9 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="/layout/scripts/jquery.min.js"></script>
+<script src="/layout/scripts/jquery.backtotop.js"></script>
+<script src="/layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
 </html>
