@@ -8,7 +8,10 @@ class Controller {
 	}
 	public function display() {
 		$view = new View();
-		switch ($this->template) {
+		switch ($this->request) {
+			case 'users':
+				$view->setTemplate('users');
+				break;
 			case 'default':
 			default:
 				$view->setTemplate('default');

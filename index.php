@@ -1,7 +1,6 @@
 <?php
-	include('controller/controller.php');
-	include('views/view.php');
-	$request = array_merge($_GET, $_POST);
-	$controller = new Controller($request);
-	echo $controller->display();
+include 'router.php';
+$request = $_SERVER['REQUEST_URI'];
+$router = new Router($request);
+$router->get('/', 'views/default');
 ?>
