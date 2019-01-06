@@ -18,19 +18,19 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('views/images/demo/backgrounds/01.png');"> 
+<div class="bgded overlay" style="background-image:url('views/images/demo/backgrounds/triangle.jpg');">
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
-    <header id="header" class="hoc clear"> 
+    <header id="header" class="hoc clear">
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="index.html">Preevent</a></h1>
+	  <h1><img src="views/images/demo/prz.png" alt=""></h1>
       </div>
       <!-- ################################################################################################ -->
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a class="drop" href="#">Pages</a>
+          <li class="active"><a href="index.html">Strona główna</a></li>
+          <li><a class="drop" href="#">informacje</a>
             <ul>
               <li><a href="views/pages/gallery.html">Gallery</a></li>
               <li><a href="views/pages/full-width.html">Full Width</a></li>
@@ -39,7 +39,7 @@ Licence URI: http://www.os-templates.com/template-terms
               <li><a href="views/pages/basic-grid.html">Basic Grid</a></li>
             </ul>
           </li>
-          <li><a class="drop" href="#">Dropdown</a>
+          <li><a class="drop" href="#">materiały</a>
             <ul>
               <li><a href="#">Level 2</a></li>
               <li><a class="drop" href="#">Level 2 + Drop</a>
@@ -52,8 +52,8 @@ Licence URI: http://www.os-templates.com/template-terms
               <li><a href="#">Level 2</a></li>
             </ul>
           </li>
-          <li><a href="#">Link Text</a></li>
-          <li><a href="#">Link Text</a></li>
+          <li><a href="#">kontakt</a></li>
+          <li><a href="#">Logowanie</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -62,11 +62,11 @@ Licence URI: http://www.os-templates.com/template-terms
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <article id="pageintro" class="hoc clear"> 
+  <article id="pageintro" class="hoc clear">
     <!-- ################################################################################################ -->
-    <h2 class="heading">Dapibus non condimentum</h2>
+    <h2 class="heading">technologie sieci web</h2>
     <div class="txtwrap">
-      <p>Fusce aliquet massa eu dapibus iaculis arcu mi volutpat nibh a luctus nisi mauris eu massa praesent nibh nibh ultrices sed.</p>
+      <p>Portal przedmiotów "Technologie sieci WEB" oraz "Technologie WEB i JAVA" prowadzonych na Wydziale Elektrotechniki i Informatyki Politechniki Rzeszowskiej dla studentów kierunków informatycznych - wykładowca dr hab. inż. Jan PROKOP, prof. PRz</p>
       <footer>
         <ul class="nospace inline pushright">
           <li><a class="btn" href="#">Posuere</a></li>
@@ -83,32 +83,38 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
+  <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="sectiontitle center">
-      <h6 class="heading">Vitae mattis risus sed eget</h6>
-      <p>Eros mollis posuere ligula quis nunc nullam nulla elit efficitur</p>
+      <h6 class="heading">podstawowe technologie</h6>
     </div>
     <ul class="nospace group services">
-      <li class="one_third first">
-        <article><i class="fa fa-clock-o"></i>
-          <h6 class="heading">Sit amet pulvinar</h6>
+      <li class="one_quarter first">
+        <article>
+          <h6 class="heading">html</h6>
           <p>Nisi mauris finibus felis non lacinia mollis vestibulum ipsum purus rhoncus ac tincidunt eget [&hellip;]</p>
           <footer><a class="btn" href="#">Read More</a></footer>
         </article>
       </li>
-      <li class="one_third">
-        <article><i class="fa fa-clock-o"></i>
-          <h6 class="heading">Ultrices in lectus</h6>
+      <li class="one_quarter">
+        <article>
+          <h6 class="heading">css</h6>
           <p>Arcu dolor aliquam a erat quis arcu lacinia placerat et elit suspendisse facilisis leo lectus iaculis [&hellip;]</p>
           <footer><a class="btn" href="#">Read More</a></footer>
         </article>
       </li>
-      <li class="one_third">
-        <article><i class="fa fa-clock-o"></i>
-          <h6 class="heading">Praesent vel urna</h6>
+      <li class="one_quarter">
+        <article>
+          <h6 class="heading">xml</h6>
           <p>Id praesent dignissim ligula id turpis ornare auctor nam vestibulum efficitur dignissim vitae nisl [&hellip;]</p>
+          <footer><a class="btn" href="#">Read More</a></footer>
+        </article>
+      </li>
+	  <li class="one_quarter">
+        <article>
+          <h6 class="heading">JavaScript</h6>
+          <p>Arcu dolor aliquam a erat quis arcu lacinia placerat et elit suspendisse facilisis leo lectus iaculis [&hellip;]</p>
           <footer><a class="btn" href="#">Read More</a></footer>
         </article>
       </li>
@@ -121,13 +127,13 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay light" style="background-image:url('views/images/demo/backgrounds/02.png');">
-  <div class="hoc container clear"> 
+<div class="wrapper bgded overlay light" style="background-image:url('views/images/demo/backgrounds/04.jpg');">
+  <div class="hoc container clear">
     <!-- ################################################################################################ -->
     <div class="group element">
-      <article class="one_third first"> 
+      <article class="one_third first">
         <!-- ################################################################################################ -->
-        <img src="views/images/demo/390x260.png" alt="">
+        <img src="views/images/demo/comp.png" alt="">
         <div class="txtwrap">
           <h6 class="heading">Faucibus vestibulum</h6>
           <p>Amet ultricies curabitur eget tempus urna ut porta leo ipsum aliquam maximus sagittis erat malesuada [&hellip;]</p>
@@ -135,7 +141,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </div>
         <!-- ################################################################################################ -->
       </article>
-      <article class="one_third"> 
+      <article class="one_third">
         <!-- ################################################################################################ -->
         <img src="views/images/demo/390x260.png" alt="">
         <div class="txtwrap">
@@ -145,7 +151,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </div>
         <!-- ################################################################################################ -->
       </article>
-      <article class="one_third"> 
+      <article class="one_third">
         <!-- ################################################################################################ -->
         <img src="views/images/demo/390x260.png" alt="">
         <div class="txtwrap">
@@ -163,10 +169,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('views/images/demo/backgrounds/03.png')">
-  <div class="hoc container clear"> 
+<div class="wrapper bgded overlay" style="background-image:url('views/images/demo/backgrounds/comp.jpg')">
+  <div class="hoc container clear">
     <!-- ################################################################################################ -->
-    <section class="one_half first"> 
+    <section class="one_half first">
       <!-- ################################################################################################ -->
       <h2 class="heading">Vulputate velit vitae laoreet</h2>
       <p>Mauris maximus venenatis mauris vitae ornare eros aliquam tincidunt vehicula porttitor varius nunc suspendisse.</p>
@@ -184,7 +190,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <footer><a class="btn" href="#">Read More &raquo;</a></footer>
       <!-- ################################################################################################ -->
     </section>
-    <section class="one_half"> 
+    <section class="one_half">
       <!-- ################################################################################################ -->
       <h2 class="heading">Faucibus velit integer sapien</h2>
       <p>Turpis duis pretium nisl tortor a auctor orci tempor id nunc sed arcu lectus fusce at urna lacus curabitur.</p>
@@ -209,54 +215,48 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <section class="hoc container clear"> 
+  <section class="hoc container clear">
     <!-- ################################################################################################ -->
     <div class="sectiontitle center">
-      <h6 class="heading">Interdum dapibus quisque</h6>
-      <p>Posuere odio mi eget suscipit odio aliquet quis nulla vehicula consectetur purus</p>
+      <h6 class="heading">wybrane narzędzia</h6>
+      <p></p>
     </div>
-    <div class="group element team btmspace-80">
-      <article class="one_quarter first"><img src="views/images/demo/320x320.png" alt="">
-        <div class="txtwrap">
-          <h6 class="heading">A Smith</h6>
-          <em>Consectetur gravida</em>
-          <footer><a href="#">Full Profile</a></footer>
-        </div>
+    <div>
+      <article class="one_third first">
+	  <a href="https://netbeans.org/" target="_blank" rel="noopener noreferrer">
+	  <img src="views/images/demo/netbeans.png" alt=""></a>
       </article>
-      <article class="one_quarter"><img src="views/images/demo/320x320.png" alt="">
-        <div class="txtwrap">
-          <h6 class="heading">B Smith</h6>
-          <em>Lorem laoreet vitae</em>
-          <footer><a href="#">Full Profile</a></footer>
-        </div>
+      <article class="one_third">
+	  <a href="https://www.eclipse.org/" target="_blank" rel="noopener noreferrer">
+	  <img src="views/images/demo/eclipse.png" alt=""></a>
       </article>
-      <article class="one_quarter"><img src="views/images/demo/320x320.png" alt="">
-        <div class="txtwrap">
-          <h6 class="heading">C Smith</h6>
-          <em>Phasellus ac nisi</em>
-          <footer><a href="#">Full Profile</a></footer>
-        </div>
+      <article class="one_third">
+	  <a href="https://www.apache.org/" target="_blank" rel="noopener noreferrer">
+	  <img src="views/images/demo/apache.png" alt=""></a>
       </article>
-      <article class="one_quarter"><img src="views/images/demo/320x320.png" alt="">
-        <div class="txtwrap">
-          <h6 class="heading">D Smith</h6>
-          <em>Gravida ultrices sapien</em>
-          <footer><a href="#">Full Profile</a></footer>
-        </div>
+	  <br>
+      <article class="one_third first">
+	  <a hre="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+	  <img src="views/images/demo/mysql.png" alt=""></a>
+      </article>
+	  <article class="one_third">
+	  <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
+	  <img src="views/images/demo/notepad.png" alt=""></a>
+      </article>
+	  <article class="one_third">
+	  <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
+	  <img src="views/images/demo/jq.png" alt=""></a>
       </article>
     </div>
-    <footer class="center"><a class="btn" href="#">View All The Team</a></footer>
-    <!-- ################################################################################################ -->
   </section>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4 bgded overlay" style="background-image:url('views/images/demo/backgrounds/04.png');">
-  <footer id="footer" class="hoc clear"> 
+  <footer id="footer" class="hoc clear">
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h3 class="heading">Preevent</h3>
       <ul class="nospace inline pushright uppercase">
         <li><a href="index.html"><i class="fa fa-lg fa-home"></i></a></li>
         <li><a href="#">About</a></li>
@@ -269,55 +269,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="#">Sitemap</a></li>
       </ul>
       <hr>
-    </div>
-    <!-- ################################################################################################ -->
-    <div class="one_quarter first">
-      <h6 class="heading">Dictum aliquam</h6>
-      <p>At feugiat nunc donec a est et metus aliquam tristique aenean eu elit vitae lectus mollis justo donec luctus vehicula lacus non.</p>
-      <p>Pharetra tortor laoreet eget ut congue erat at neque dignissim suscipit pretium sem rhoncus aliquam tincidunt.</p>
-    </div>
-    <div class="one_quarter">
-      <h6 class="heading">Lacinia elementum</h6>
-      <ul class="nospace linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890<br>
-          +00 (123) 456 7890</li>
-        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-    </div>
-    <div class="one_quarter">
-      <h6 class="heading">Vel diam tempor</h6>
-      <ul class="nospace linklist">
-        <li><a href="#">Sed lacus turpis sed nisi</a></li>
-        <li><a href="#">Consequat sodales mauris</a></li>
-        <li><a href="#">Massa aliquam quis tortor</a></li>
-        <li><a href="#">Bibendum arcu in tristique</a></li>
-        <li><a href="#">Interdum eget sapien nec</a></li>
-      </ul>
-    </div>
-    <div class="one_quarter">
-      <h6 class="heading">Vulputate nulla</h6>
-      <ul class="nospace linklist">
-        <li>
-          <article>
-            <h6 class="nospace font-x1"><a href="#">Vehicula augue</a></h6>
-            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-            <p class="nospace">Arcu ut condimentum in erat tincidunt quis accumsan [&hellip;]</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h6 class="nospace font-x1"><a href="#">Condimentum aliquet</a></h6>
-            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-            <p class="nospace">Ultricies quis suscipit praesent euismod imperdiet ornare [&hellip;]</p>
-          </article>
-        </li>
-      </ul>
+	  	<img src="views/images/demo/weii_pl.png">
     </div>
     <!-- ################################################################################################ -->
   </footer>
@@ -326,10 +278,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
+  <div id="copyright" class="hoc clear">
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+	
+    <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">Jan Prokop</a></p>
     <!-- ################################################################################################ -->
   </div>
 </div>
