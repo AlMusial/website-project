@@ -1,0 +1,13 @@
+zmienic czcionke dla headerów
+logo jako linki do stron
+kontakt prokop
+menu ze scrollowaniem
+tekstowy zapelniacz(odnosnik do o przedmiocie)
+odnosnik do narzedzi
+autor strony
+
+PODSTRONY:
+logowanie
+projekty
+laboratorium
+kontakt

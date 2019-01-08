@@ -11,7 +11,20 @@ File: Layout CSS
 @import url("fontawesome-4.6.3.min.css");
 @import url("framework.css");
 
-
+#navbar
+{ 
+	background: #333333;
+}
+#contact
+{
+	text-align: right;
+	margin: 20px;
+	font-size: 16px;
+}
+#info
+{
+	padding: 40px 0;
+}
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
@@ -98,6 +111,16 @@ File: Layout CSS
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
 
+/* sticky menu*/
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100; //nav na wierzchu
+}
+
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
@@ -161,16 +184,6 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
 #mainav form select{width:100%; padding:5px; border:1px solid;}
 #mainav form select option{margin:5px; padding:0; border:none;}
-
-/* Breadcrumb */
-#breadcrumb{padding:120px 0 30px;}
-#breadcrumb ul{margin:0 0 30px 0; padding:0 0 8px 0; list-style:none; text-transform:uppercase; border-bottom:1px solid;}
-#breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
-#breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
-#breadcrumb li a::after{top:3px; right:0; content:"\f101";}
-#breadcrumb li:last-child a{margin:0; padding:0;}
-#breadcrumb li:last-child a::after{display:none;}
-#breadcrumb .heading{margin:0; font-size:2rem;}
 
 /* Sidebar Navigation */
 .sidebar nav{display:block; width:100%;}
@@ -276,8 +289,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#C0AB8F;}
 
 
 /* Footer */
-#footer .heading{color:#FFFFFF;}
-#footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.2);}
+#footer, #info .heading{color:#FFFFFF;}
+#footer, #info hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.2);}
 
 
 /* Navigation */
