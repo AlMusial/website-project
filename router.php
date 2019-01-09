@@ -4,13 +4,13 @@ class Router{
 	public function __construct($request){
 		$this->request = $request;
 	}
-	public function get($route, $file){
+	public function get($route, $function){
 		$uri = trim( $this->request, "/" );
 		$uri = explode("/", $uri);
-		if($uri[0] == trim($route, "/")){
-			array_shift($uri);
-			$args = $uri;
-			require $file . '.php';
+		if('/' . $uri[0] == $route) {
+			$function->__invoke();
+			die();
+		}
 		}
 	}
-}
+?>
