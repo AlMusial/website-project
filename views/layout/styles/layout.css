@@ -11,20 +11,13 @@ File: Layout CSS
 @import url("fontawesome-4.6.3.min.css");
 @import url("framework.css");
 
-#navbar
-{ 
-	background: #333333;
-}
-#contact
-{
-	text-align: right;
-	margin: 20px;
-	font-size: 16px;
-}
-#info
-{
-	padding: 40px 0;
-}
+#navbar {background: #333333;}
+#contact {margin: 20px;	font-size: 16px;}
+#info {padding: 40px 0;}
+#log{background-color: #DCDCDC;}
+.max { position: relative;}
+.block input {margin:auto; padding:10px;}
+.borderedbox {background-color:F7F6F6;}
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
@@ -34,7 +27,7 @@ File: Layout CSS
 .row4, .row4 a{}
 .row5, .row5 a{}
 
-
+.max footer{bottom: 0; position: absolute; margin: -40px;}
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
@@ -65,7 +58,7 @@ File: Layout CSS
 .sectiontitle *{margin:0;}
 
 .services{}
-.services li{padding:40px 0 0 0; text-align:center;}
+.services li{padding:20px 0 0 0; text-align:center;}
 .services li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 .services li *{}
 .services li article{display:block; position:relative; padding:65px 20px 25px 20px; border:1px solid;}
@@ -217,20 +210,6 @@ th, td{padding:5px 8px;}
 td{border-width:0 1px;}
 
 
-/* Gallery
---------------------------------------------------------------------------------------------------------------- */
-#gallery{display:block; width:100%; margin-bottom:50px;}
-#gallery figure figcaption{display:block; width:100%; clear:both;}
-#gallery li{margin-bottom:30px;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
-
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#D3D3D3; background-color:#212121;}
@@ -251,8 +230,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#C0AB8F;}
 .row0, .row0 a{}
 .row1{color:#FFFFFF; background-color:rgba(0,0,0,.3);}
 .row2{color:#5F5F5F; background-color:#F7F7F7;}
-.row3{color:#5F5F5F; background-color:#FFFFFF;}
-.row4{color:#D3D3D3; background-color:#2D2D2D;}
+.row3{color:#5F5F5F; background-color:#E7E7E7;}
+.row4{color:#D3D3D3; background-color:#696969;}
 .row5, .row5 a{color:#D3D3D3; background-color:#212121;}
 
 
@@ -313,21 +292,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#C0AB8F;}
 #backtotop{color:#FFFFFF; background-color:#C0AB8F;}
 
 
-/* Tables + Comments */
-table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#C0AB8F;}
-th{color:#FFFFFF; background-color:#373737;}
-tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
-tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
-table a, #comments a{background-color:inherit;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
@@ -356,7 +320,6 @@ table a, #comments a{background-color:inherit;}
 	#breadcrumb{}
 
 	.container{}
-	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
 	#footer{}

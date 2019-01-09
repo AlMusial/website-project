@@ -25,36 +25,21 @@ Licence URI: http://www.os-templates.com/template-terms
     <header id="header" class="hoc clear">
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-	  <h1><img src="views/images/demo/prz.png" alt=""></h1>
+	  <h1><img src="views/images/demo/tsw.png" alt=""></h1>
       </div>
       <!-- ################################################################################################ -->
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li class="active"><a href="index.html">Strona główna</a></li>
-          <li><a class="drop" href="#">informacje</a>
-            <ul>
-              <li><a href="views/pages/gallery.html">Gallery</a></li>
-              <li><a href="views/pages/full-width.html">Full Width</a></li>
-              <li><a href="views/pages/sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="views/pages/sidebar-right.html">Sidebar Right</a></li>
-              <li><a href="views/pages/basic-grid.html">Basic Grid</a></li>
-            </ul>
-          </li>
+          <li class="active"><a href="default.html">Strona główna</a></li>
           <li><a class="drop" href="#">materiały</a>
             <ul>
-              <li><a href="#">Level 2</a></li>
-              <li><a class="drop" href="#">Level 2 + Drop</a>
-                <ul>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Level 2</a></li>
+              <li><a href="#">Laboratorium</a></li>
+              <li><a href="#">Tematy projektów</a></li>
+              <li><a href="#">Wykłady</a></li>
             </ul>
           </li>
           <li><a href="#">kontakt</a></li>
-          <li><a href="#">Logowanie</a></li>
+          <li><a href="/login">Logowanie</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -76,11 +61,11 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/04.png');">
-  <div id="info" class="hoc clear"> 
+<div class="wrapper row4 bgded">
+  <div id="info" class="hoc clear" > 
     <div class="sectiontitle">
 	  <div class="sectiontitle center nospace inline">
-		<h6 class="heading">Czym jest WEB?</h6>
+		<h6 class="heading">Czym jest <span style= "color: #005a9c" >WEB</span></h6>
 		<hr><br><br>
 		<p>Web jest powszechnie używanym skrótem dla ogólnoświatowej sieci World Wide Web (WWW). Podstawą technologii Web jest protokół HTTP służący do przesyłania dokumentów hipertekstowych. Historia tworzenia stron internetowych wiąże się z upublicznieniem pierwszej specyfikacji języka HTML w roku 1991, której twórcą był Tim Berners-Lee. 
 		Ustanawianiem standardów technologii Web zajmuje się konsorcjum W3C.</p><br><br>
@@ -92,7 +77,7 @@ Licence URI: http://www.os-templates.com/template-terms
   </footer>
 </div>
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row2">
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
@@ -124,7 +109,7 @@ Licence URI: http://www.os-templates.com/template-terms
 	  <li class="one_quarter">
         <article>
           <h6 class="heading">JavaScript</h6>
-          <p>Skryptowy język programowania stworzony przez firmę Netscape, najczęściej stosowany na stronach internetowych.</p>
+          <p>Skryptowy język programowania stworzony przez firmę Netscape, stosowany na stronach internetowych.</p>
           <footer><a class="btn" href="https://www.w3schools.com/js/" target="_blank" rel="noopener noreferrer">Więcej...</a></footer>
         </article>
       </li>
@@ -137,13 +122,8 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-  
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper row3">
   <section class="hoc container clear">
-    <!-- ################################################################################################ -->
     <div class="sectiontitle center">
       <h6 class="heading">wybrane narzędzia</h6>
       <a href="http://web.prz.edu.pl/webtools/index.html" target="_blank" rel="noopener noreferrer"><p>Web Design Tools</p></a>
@@ -186,10 +166,11 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
 	  <div id="logo" class="fl_left">
-	  	<a href="https://w.prz.edu.pl/" target="_blank" rel="noopener noreferrer"><img src="views/images/demo/weii_pl.png"></a>
+	  	<a href="https://weii.prz.edu.pl/" target="_blank" rel="noopener noreferrer"><img src="views/images/demo/weii_pl.png"></a><br>
+		<a href="https://w.prz.edu.pl/" target="_blank" rel="noopener noreferrer"><img src="views/images/demo/a.png" alt=""></a>
 		</div>
-		<div id="contact" class="fl_right">
-		<h2>Kontakt</h2>
+		<div id="contact" class="fl_right right">
+		<h2>Kontakt </h2>
 		<br>
 		<p>Dr hab. Jan Prokop, prof. Prz<br> Wydział Elektrotechniki i Informatyki<br> ul. Wincentego Pola 2(bud. B, pok. 101)<br>
 		35-959 Rzeszów<br> Telefon: +48 17 865 13 84<br>E-mail: jprokop@prz.edu.pl</p>
@@ -216,8 +197,6 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- JAVASCRIPTS -->
 <script src="views/layout/scripts/jquery.min.js"></script>
 <script src="views/layout/scripts/jquery.backtotop.js"></script>
-<script src="views/layout/scripts/stickynav.js"></script>
 <script src="views/layout/scripts/jquery.mobilemenu.js"></script>
 </body>
-</html>
 </html>
